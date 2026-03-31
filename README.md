@@ -1,8 +1,8 @@
-# ThalRakshak 🩸
+# ThalRakshak 
 
 A comprehensive blood donation platform with gamification features, real-time matching, and emergency response systems.
 
-## 🚀 Features
+## Features
 
 - **Blood Donation Management** - Complete donation lifecycle tracking
 - **Emergency Blood Requests** - Real-time emergency blood matching
@@ -12,7 +12,7 @@ A comprehensive blood donation platform with gamification features, real-time ma
 - **Blood Type Prediction** - ML-based blood type prediction from images
 - **Real-time Matching** - Connect donors with recipients instantly
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React** with Vite
@@ -33,7 +33,7 @@ A comprehensive blood donation platform with gamification features, real-time ma
 - **Scikit-learn** for blood type prediction
 - **Natural Language Processing** for chatbot
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Node.js (v16+)
@@ -65,14 +65,14 @@ pip install -r requirements.txt
 python start_flask_server.py
 ```
 
-## 🗄️ Database Setup
+## Database Setup
 
 ```bash
 cd backend
 node seed_leaderboard_data.js
 ```
 
-## 🔧 Environment Variables
+## Environment Variables
 
 ### Backend (.env)
 ```
@@ -83,7 +83,7 @@ EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_email_password
 ```
 
-## 📱 Key Features
+## Key Features
 
 ### For Donors
 - Register and manage donation history
@@ -101,7 +101,7 @@ EMAIL_PASS=your_email_password
 - Process donation requests
 - View donor statistics
 
-## 🎮 Gamification
+## Gamification
 
 - **Level System** - Earn XP with each donation
 - **Badges** - Unlock achievements (First Blood, Hero Donor, etc.)
@@ -129,21 +129,21 @@ EMAIL_PASS=your_email_password
 - `GET /api/users/me` - Get user profile
 - `PUT /api/users/me` - Update profile
 
-## 🚨 Emergency System
+## Emergency System
 
 1. **Request Submission** - Recipients submit emergency requests
 2. **Smart Matching** - System finds compatible donors
 3. **Real-time Notifications** - Instant alerts to donors
 4. **Status Tracking** - Real-time request status updates
 
-## 📊 Leaderboard System
+## Leaderboard System
 
 - **Ranking Algorithm** - Based on donation count and frequency
 - **Badge System** - Automatic badge assignment
 - **Level Progression** - XP-based leveling system
 - **Achievement Tracking** - Milestone celebrations
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Backend tests
@@ -155,7 +155,7 @@ cd frontend
 npm test
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Backend (Heroku/Railway)
 ```bash
@@ -169,22 +169,6 @@ npm test
 npm run build
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🆘 Support
-
-For support, email support@bloodconnection.com or create an issue in the repository.
-
----
 
 **Made with ❤️ for saving lives through blood donation**
 
